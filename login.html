@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>P&#8709stIt - login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="res/css/style.css" type="text/css">
-    <link rel="stylesheet" href="/res/fonts/BalooTammudu2/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="res/css/login-style.css" type="text/css">
 </head>
 <body>
-Hi there
+<div class="container">
+    <div id="mainbox">
+        <div id="mainbox_upper">
+            <img id="big_logo" src="res/images/postit-logo.png" alt="Postit Logo">
+            <div id="main_text">
+                <div class="bigger_text">
+                Welcome to P&#8709stIt!
+                </div>
+                <a href="#">Create an Account</a><br>Or
+                <div class="bigger_text">
+                    Please Log In
+                </div>
+                <div id="mainbox_upper_empty"></div>
+            </div>
+        </div>
+        <div id="mainbox_lower">
+            <form action="index.html" method="get"> <!-- Action should be auth script! -->
+                <input name="email" type="text" placeholder="Email">
+                <input name="password" type="text" placeholder="Password">
+                <button>Log In</button>
+            </form>
+            <a href="#" id="forgot_password">Forgot password?</a>
+        </div>
+    </div>
+</div>
 </body>
 </html>
