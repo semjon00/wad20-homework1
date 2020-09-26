@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(255, 203, 168);
+    margin: 0; /* This helps to place header against the top.*/
+}
+
+header {
+    background-color: cornsilk;
+    padding: 1rem;
+}
+
+main {
+    background-color: rgb(167, 112, 112);
+    max-width: 50rem;
+    margin: auto;
+    padding: 3rem;
+}
+
+/* Correspons to a post */
+main>section {
+    background-color: bisque;
+    margin: 1rem;
+    border: 3px solid #73AD21;
+}
+
+/* This selector could allow for nesting of elements in .post-content */
+.post-content img {
+    width: 100%;
+}
