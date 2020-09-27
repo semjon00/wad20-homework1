@@ -1,6 +1,7 @@
 body {
     background-color: rgb(255, 203, 168);
     margin: 0; /* This helps to place header against the top.*/
+    font-size: 16pt;
 }
 
 header {
@@ -10,7 +11,7 @@ header {
 
 main {
     background-color: rgb(167, 112, 112);
-    max-width: 50rem;
+    max-width: 40rem;
     margin: auto;
     padding: 3rem;
 }
@@ -19,10 +20,33 @@ main {
 main>section {
     background-color: bisque;
     margin: 1rem;
+    padding: 1rem;
     border: 3px solid #73AD21;
+    border-radius: 0.5rem;
+}
+
+.post-header {
+    display: flex;
+}
+
+img.avatar {
+    border-radius: 50%; /* Creates circle */
+    height: 60px;
+}
+
+.post-date {
+    height: 60px;
 }
 
 /* This selector could allow for nesting of elements in .post-content */
 .post-content img {
     width: 100%;
+}
+
+.like-button {
+    font-size: 16pt;
+    border-radius: 0.5rem;
+    background-color: darkblue;
+    padding-bottom: 4pt;
+    width: 40pt;
 }
