@@ -31,6 +31,13 @@ input {
   color: #ffffff;
 }
 
+div + p {
+    font-family: "Comic Sans MS";}
+
+div ~ p {
+    color: green;
+}
+
 main {
     background-color: rgb(167, 112, 112);
     max-width: 40rem;
