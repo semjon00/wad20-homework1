@@ -1,3 +1,7 @@
 .bigger_text {
     font-size: 1.2em;
 }
+
+.shadow {
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+}
