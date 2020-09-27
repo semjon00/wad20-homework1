@@ -9,6 +9,28 @@ header {
     padding: 1rem;
 }
 
+form {
+  width: 400px;
+  margin: auto;
+  margin-top:0px;
+}
+
+input {
+  padding: 4px 10px;
+  border: 0;
+  font-size: 16px;
+}
+
+.search {
+  width: 75%;
+}
+
+.submit {
+  width: 70px;
+  background-color: rgb(167, 112, 112);
+  color: #ffffff;
+}
+
 main {
     background-color: rgb(167, 112, 112);
     max-width: 40rem;
