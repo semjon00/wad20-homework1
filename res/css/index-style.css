@@ -5,6 +5,7 @@ body {
 }
 
 header {
+    display: flex;
     background-color: cornsilk;
     padding: 1rem;
 }
@@ -12,7 +13,7 @@ header {
 form {
   width: 400px;
   margin: auto;
-  margin-top:0px;
+  margin-top:0;
 }
 
 input {
@@ -83,4 +84,13 @@ img.avatar {
     background-color: rgb(12, 86, 155);
     padding-bottom: 4pt;
     width: 40pt;
+}
+
+#small_logo {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+
+    -ms-transform: translate(0, -15%);
+    transform: translate(0, -15%);
 }
